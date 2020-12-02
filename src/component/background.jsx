@@ -33,7 +33,7 @@ export default class Background extends React.Component {
 								behavior: "smooth"
 							});
 						}}>
-						Here is a sample of what I do
+						Checkout My work !
 					</button>
 				</div>
 			</div>
