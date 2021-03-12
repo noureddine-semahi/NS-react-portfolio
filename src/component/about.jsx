@@ -59,16 +59,7 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-							My name is Noureddine Semahi, I am 33 years old, I am a full-stack web developper and I also have a Bachelors degree in Sciences of the Language, I can write and speak French, Arabic and English very fluently as well my native Berber.
-
-							I have so far worked with few tech companies,where I filled different key-roles that allowed me to gain a decent knowledge on various softwares.
-							I have worked as a brand ambassador and beta program partner with NEXAR INC assisting with the testing and developing the key software for a smart dashcam system. Then I have worked with Apple as content review analyst with the POI team for Apple Maps. 
-							I have also worked with the WAYMO team on developing the self driving technology as a fleet response specialist/ data analyst.
-							I later joined the YouTube team as a Data Analyst/Content Review Specialist.
-
-							I love to transform ideas into reality using code. I
-							am passionate about using Javascript and animations
-							to create awesome user experiences.
+							My name is Noureddine Semahi, I am a full-stack web developer and I also have a Bachelor's degree in Sciences of the Language, I can write and speak French, Arabic and English very fluently. I have so far worked with a few tech companies, where I filled different key-roles that allowed me to gain a decent knowledge on various softwares. I was brand ambassador and beta program partner with NEXAR INC assisting with the testing and developing the key software for an AI smart dashcam systems. Then I have worked with Apple as content review analyst with the POI team (Points Of Interests) for Apple Maps. I have also worked with the WAYMO team on developing the self driving technology as a fleet response specialist/ data analyst. I later joined the YouTube team as a Data Analyst/Content Review Specialist. I love to transform ideas into reality using code. I am passionate about using JavaScript and React to create awesome user experiences.
 						</p>
 					</div>
 					<div

@@ -135,7 +135,7 @@ export default class Projects extends React.Component {
 									className="close-icon"
 									style={{
 										textAlign: "right",
-										fontWeight: 900,
+										fontWeight: "Bolder",
 										fontSize: 2 + "rem",
 										cursor: "pointer"
 									}}
@@ -219,7 +219,7 @@ export default class Projects extends React.Component {
 							</div>
 							<div className="modal-bottom">
 								<a 	
-									href="./todoList/index.html" 
+									href="https://project2utcoding.herokuapp.com/" 
 									target="_blank">
 									<h3>View live demo</h3>
 								</a>
@@ -227,7 +227,7 @@ export default class Projects extends React.Component {
 									className="close-icon"
 									style={{
 										textAlign: "right",
-										fontWeight: 900,
+										fontWeight: "bolder",
 										fontSize: 2 + "rem",
 										cursor: "pointer"
 									}}

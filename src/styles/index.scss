@@ -97,6 +97,10 @@ body::-webkit-scrollbar {
     color: white;
 
 }
+
+.nav-item {
+    justify-content: space-between;
+}
 .work-button {
     margin-top: 1rem;
     padding: .3rem 2rem;
@@ -112,11 +116,13 @@ body::-webkit-scrollbar {
     -webkit-text-fill-color: white; 
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
+    transition: transform .2s;
 }
 .work-button:hover {
     background-color: #6b1607;
     color: white;
     cursor: pointer;
+    transform: scale(1.1);
 }
 .work-button:focus {
     outline: 0;
@@ -130,19 +136,25 @@ body::-webkit-scrollbar {
 }
 
 #footer {
-    background-color: #061b3d;
-    color: gray;
+    background-color: #3b3be9a8;
+    color: rgb(43, 13, 214);
     z-index: 1000;
 }
 
 .btn-style {
     font-size: 1.5rem;
-    
+    font-weight: bolder; 
+     
 }
 
 .home-style {
+    
     font-size: 2rem;
-  
+    font-weight: bolder;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    transition: transform .2s;
 }
 
 
@@ -198,9 +210,13 @@ body::-webkit-scrollbar {
 
 .btn-style:hover {
     cursor: pointer;
+    background-color: #6d17cb;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid black;
 }
 .home-style:hover {
     cursor: pointer !important;
+    transform: scale(1.5);
 }
 
 .col-12.col-lg-6.hidden img {

@@ -10,7 +10,7 @@ class Footer extends React.Component {
 			<div id="footer" className="container-fluid text-center py-5">
 				<div className="container">
 					<div className="row">
-						<div className="col-12 col-sm-12 col-md-8 mx-auto">
+						<div className="col-12 col-sm-12 col-md-4 mx-auto">
 							<a
 								className="px-3"
 								href="https://github.com/noureddine-semahi/NS-Portfolio"
@@ -18,7 +18,8 @@ class Footer extends React.Component {
 								rel="noopener noreferrer">
 								<img src={github} alt=""/>
 							</a>
-							<a
+							<a	
+								className="px-3"
 								href="https://www.linkedin.com/in/noureddine-semahi-737373164/"
 								target="_blank"
 								rel="noopener noreferrer">
@@ -26,7 +27,7 @@ class Footer extends React.Component {
 							</a>
 						</div>
 					</div>
-					<h5 className="pt-4">Noureddine Semahi &copy; 2020</h5>
+					<h5 className="pt-4">Noureddine Semahi &copy; 2021</h5>
 				</div>
 			</div>
 		);

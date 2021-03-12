@@ -16,9 +16,9 @@ export default class Background extends React.Component {
 				<div id="stars3" />
 				<div className="top-container flex">
 					<h1>
-						Hello, I&apos;m Noureddine Semahi.
-						<br />
-						I&apos;m a Full Stack Web Developer.
+						Welcome to 
+						<br></br>
+						Noureddine Semahi&apos;s Portfolio.
 					</h1>
 					{/* offset can be cahnged in node modules wowjs default file */}
 					<button
@@ -33,7 +33,7 @@ export default class Background extends React.Component {
 								behavior: "smooth"
 							});
 						}}>
-						Checkout My work !
+						Checkout My Work !
 					</button>
 				</div>
 			</div>
