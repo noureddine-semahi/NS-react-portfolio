@@ -157,6 +157,17 @@ body::-webkit-scrollbar {
     transition: transform .2s;
 }
 
+#resume h3, #certificate h3 {
+    font-size: 1rem;
+    text-align: end;
+}
+#links {
+    justify-content: space-between ;
+}
+
+.project-container {
+    justify-content: space-between;
+}
 
 @keyframes move {
   from { top: -80px;}

@@ -1,6 +1,5 @@
 import React from "react";
 
-import codepen from "../img/codepen.png";
 import github from "../img/github.png";
 import linkedin from "../img/linkedin.png";
 
@@ -13,7 +12,7 @@ class Footer extends React.Component {
 						<div className="col-12 col-sm-12 col-md-4 mx-auto">
 							<a
 								className="px-3"
-								href="https://github.com/noureddine-semahi/NS-Portfolio"
+								href="https://github.com/noureddine-semahi/NS-react-portfolio"
 								target="_blank"
 								rel="noopener noreferrer">
 								<img src={github} alt=""/>
