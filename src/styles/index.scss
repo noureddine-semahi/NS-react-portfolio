@@ -158,16 +158,18 @@ body::-webkit-scrollbar {
 }
 
 #resume h3, #certificate h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
     text-align: end;
+    color: rgb(233, 5, 5);
+    -webkit-text-fill-color: red; 
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
 }
 #links {
-    justify-content: space-between ;
-}
-
-.project-container {
     justify-content: space-between;
 }
+
 
 @keyframes move {
   from { top: -80px;}
@@ -187,8 +189,10 @@ body::-webkit-scrollbar {
 }
 
 .progress {
-    height: 1.5rem;
+    height: 2rem;
     font-size: 1rem;
+    border: 3px black solid;
+    border-radius: 50px 50px 50px 50px;
 }
 
 .testbg { 
@@ -264,7 +268,13 @@ body::-webkit-scrollbar {
 }
 
 .progress-bar {
-    height: 90%; 
+    height: 90%;
+    background-color: red; 
+    font-weight: 900;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 0.2em;
 }
 
 @keyframes fillBar {
